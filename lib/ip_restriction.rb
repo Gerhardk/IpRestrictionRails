@@ -1,5 +1,7 @@
 require "ip_restriction/version"
 
 module IpRestriction
-  # Your code goes here...
+  def restrict_access
+    true
+  end
 end
